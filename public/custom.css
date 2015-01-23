@@ -1,0 +1,25 @@
+.leaflet-popup-content{
+    min-width:300px;
+    min-height:50px;
+}
+.profile-image{
+    float:left;
+}
+.tweet-wrapper{
+    overflow:auto; 
+    padding-left:8px;
+}
+.tweet-text{
+    padding-top:8px;
+}
+.tweet-username{
+    font-weight:bold;
+}
+.tweet-count{
+    position:absolute;
+    left:16px;
+    bottom:8px;
+    color:white;
+    font-size: 24px;
+    font-family: impact;
+}

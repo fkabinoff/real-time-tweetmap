@@ -1,0 +1,12 @@
+{
+  "name": "twitter-trends",
+  "description": "Live twitter data",
+  "dependencies": {
+    "express": "^4.11.1",
+    "ntwitter": "latest",
+    "socket.io": "latest"
+  },
+  "engines": {
+    "node": "latest"
+  }
+}
