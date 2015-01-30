@@ -15,6 +15,13 @@ app.get("/", function (req,res) {
     });
 });
 
+app.get("/map", function (req,res) {
+    fs.readFile(__dirname + '/map.html', 'utf8', function(err, text){
+        res.send(text);
+    });
+});
+
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 

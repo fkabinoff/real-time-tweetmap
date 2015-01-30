@@ -2,18 +2,20 @@
 <head>
     <script src="/socket.io/socket.io.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.10.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+    <script type="text/javascript" src="/spinner.js"></script>
+    <script type="text/javascript" src="/jquery.spinner.js"></script>
     <link rel="stylesheet" href="/custom.css" />
 </head>
 
 <body>
 
-    <div id="map" style="height:1000px;"></div>
+    <div id="spinner"></div>
 
-    <div class="tweet-count">
-        # of Tweets: <span id="count"></span>
-    </div>
+    <script type="text/javascript">
+        $("#spinner").spin();
+        window.location.replace("/map")
+    </script>
 
-    <script src="/app.js"></script>
 </body>
+
+</html>
